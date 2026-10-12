@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 
-app = Flask(__name__)
+aplicacion = Flask(__name__)
 
 # Lista temporal de registros
 registros = []
